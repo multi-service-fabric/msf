@@ -2,13 +2,13 @@
 MSF is the architectual design of carrier-grade SDN that provides wide logical network slices with general purpose switches. We are studying architectual designs with the aim of solving the following problems we are having.
 
 - **Immutable low-cost architecture**
- - Capable to employ any product that is most economical and suitable at each moment, for providing functions required for service provider network.
+	- Capable to employ any product that is most economical and suitable at each moment, for providing functions required for service provider network.
 - **Unlimited and adaptive Scalability**
- - Capable to provide any level of scale needed for any use case.
+	- Capable to provide any level of scale needed for any use case.
 - **Applicability of *Any-vendor* product**
- - Simplified functions and unified specification in order to enable to select Any-vendor's products as you like.
+	- Simplified functions and unified specification in order to enable to select Any-vendor's products as you like.
 - **Easy Maintenance**
- - Capable to make use of small, simple and transparent equipment in order to let it easy to detect and fix the cause in case of failure.
+	- Capable to make use of small, simple and transparent equipment in order to let it easy to detect and fix the cause in case of failure.
 
 ## Design Policy
 - Applicable to both data center and service provider network with the same architecture
@@ -38,7 +38,7 @@ Controller is in charge of managing both overlay and underlay network. In overla
 [Repository](https://github.com/multi-service-fabric/fabric-controller)
 
 #### Element Controller (EC)
-[Repository](https://github.com/multi-service-fabric/element/controller)
+[Repository](https://github.com/multi-service-fabric/element-controller)
 
 #### Element Manager (EM)
 [Repository](https://github.com/multi-service-fabric/element-manager)
