@@ -48,8 +48,8 @@ Controller is in charge of managing both overlay and underlay network. In overla
 
 [Technical_Details](/doc/Technical_Details.pdf) (PDF) describes more technical information about typical functions and basic operations for using controllers.
 
-## support
+## Support
 If you have any questions, enhancement requests,  let us know with issue, or please contact `msf-contact [at] lab.ntt.co.jp`.
 
-## project
-This project is a part of [Multi-Service Fabric](https://github.com/multi-service fabric/).
+## Project
+This project is a part of [Multi-Service Fabric](https://github.com/multi-service-fabric/).
