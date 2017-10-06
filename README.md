@@ -1,5 +1,5 @@
 # Multi-Service Fabric (MSF)
-MSF is the architectual design of carrier-grade SDN that provides wide logical network slices with general purpose switches. We are studying architectual designs with the aim of solving the following problems we are having.
+MSF is the architectural design of carrier-grade SDN that provides wide logical network slices with general purpose switches. We are studying architectual designs with the aim of solving the following problems we are having.
 
 - **Immutable low-cost architecture**
 	- Capable to employ any product that is most economical and suitable at each moment, for providing functions required for service provider network.
