@@ -16,10 +16,10 @@ MSF is the architectural design of carrier-grade SDN that provides wide logical 
 - Support carrier-grade scalability and stability by making use the autonomous and distributed IP function of the switches
 - Provide service common functions on the switches and service dependent functions on servers in cloud
 - In order for quick commercial deployment, it must be interoperable with existing networks using legacy protocols
-- Solving limitation of commodity switches is assisted by the controller that organizes the swtich cluster as a fabric
+- Solving limitation of commodity switches is assisted by the controller that organizes the switch cluster as a fabric
 
 ## Architecture
-- Centralized management: Network management and abstraction are performed by the controller, such as managing IP-VPN, swtich set-up, or switch clustering (switch cluster with clos-topology is treated as one logical switch).
+- Centralized management: Network management and abstraction are performed by the controller, such as managing IP-VPN, switch set-up, or switch clustering (switch cluster with clos-topology is treated as one logical switch).
 - Distributed/Autonomous: Network routing is done among the switches.
 
 ![architecuture](/doc/img/architecture.png)
