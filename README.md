@@ -46,7 +46,7 @@ Controller is in charge of managing both overlay and underlay network. In overla
 ## Document
 [Concept_Functionality_and_NetworkScale](/doc/Concept_Functionality_and_NetworkScale.pdf) (PDF) describes concept and overview, for your understanding of our project.
 
-[Technical_Details](/doc/Technical_Details.pdf) (PDF) describes more technical information about typical functions and basic operations for using controllers.
+[Technical_Details](/doc/Technical_Details_r02.pdf) (PDF) describes more technical information about typical functions and basic operations for using controllers.
 
 ## Support
 If you have any questions, enhancement requests,  let us know with issue, or please contact `msf-contact [at] lab.ntt.co.jp`.
