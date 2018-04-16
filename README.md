@@ -34,6 +34,10 @@ Controller is in charge of managing both overlay and underlay network. In overla
 
 ![controller_architecuture](/doc/img/controller_architecture.png)
 
+Furthermore, in order to connect between multiple data centers, **Multi-Fabric Controller (MFC)** aggregates the controllers (FC/EC/EM) of each location.
+
+![multi-location](/doc/img/multilocation.png)
+
 #### Fabric Controller (FC)
 [Repository](https://github.com/multi-service-fabric/fabric-controller)
 
