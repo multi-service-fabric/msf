@@ -1,0 +1,8 @@
+<Getting equipment list in switch cluster>
+curl -X GET http://<FC Address>:<port>/v1/equipment-types
+
+=============================================================
+<detail>
+curl -X GET http://<FC Address>:<port>/v1/equipment-types/1
+curl -X GET http://<FC Address>:<port>/v1/equipment-types/2
+

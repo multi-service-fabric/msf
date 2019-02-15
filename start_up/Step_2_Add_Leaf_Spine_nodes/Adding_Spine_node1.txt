@@ -1,0 +1,18 @@
+curl -H 'Content-type: application/json' \
+     -X POST \
+     "http://<FC Address>:<port>/v1/clusters/1/nodes/spines?notification_address=<Notification Address>&notification_port=<port>" \
+     -d '{
+         "node_id":"1",
+         "equipment_type_id":"1",
+         "host_name":"Spine01",
+         "mac_address":"d8:18:d3:67:ba:41",
+         "username":"nslab",
+         "password":"nslab",
+         "provisioning":false,
+         "snmp_community":"ntt-msf",
+         "ntp_server_address":<NTP Server Address>,
+         "breakout":null,
+         "internal_links":null,
+         "management_if_address":"<Management IF Address>",
+         "management_if_prefix":24
+         }' 

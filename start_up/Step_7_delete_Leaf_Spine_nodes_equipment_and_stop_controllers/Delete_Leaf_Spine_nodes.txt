@@ -1,0 +1,10 @@
+<Leaf1>
+curl -X DELETE "http://<FC Address>:<port>/v1/clusters/1/nodes/leafs/1?notification_address=<Notification Address>&notification_port=<port>"
+
+<Leaf2>
+curl -X DELETE "http://<FC Address>:<port>/v1/clusters/1/nodes/leafs/2?notification_address=<Notification Address>&notification_port=<port>"
+
+<Spine1>
+curl -X DELETE "http://<FC Address>:<port>/v1/clusters/1/nodes/spines/1?notification_address=<Notification Address>&notification_port=<port>"
+
+

@@ -1,0 +1,5 @@
+<FC>
+curl http://<FC Address>:<port>/v1/internal/MSFcontroller/status
+
+<EC & EM>
+curl http://<FC Address>:<port>/v1/internal/ec_ctrl/statusget

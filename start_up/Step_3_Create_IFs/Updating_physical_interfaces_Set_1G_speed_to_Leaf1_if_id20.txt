@@ -1,0 +1,7 @@
+curl -v -H 'Content-type: application/json' \
+   -X PUT \
+   http://<FC Address>:<port>/v1/clusters/1/nodes/leafs/1/interfaces/physical-ifs/20 \
+   -d '{
+         "action":"speed_set",
+         "speed":"1g"
+         }' 

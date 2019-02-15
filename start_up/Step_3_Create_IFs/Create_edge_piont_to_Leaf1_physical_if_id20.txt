@@ -1,0 +1,7 @@
+curl  -H 'Content-type: application/json' \
+    -X POST \
+    http://<FC Address>:<port>/v1/clusters/1/points/edge-points \
+    -d '{ 
+        "leaf_node_id" : "1", 
+        "physical_if_id" : "20" 
+        } '

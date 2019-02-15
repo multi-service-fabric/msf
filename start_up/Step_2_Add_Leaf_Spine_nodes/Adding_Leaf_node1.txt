@@ -1,0 +1,23 @@
+curl -H 'Content-type: application/json' \
+     -X POST \
+     "http://<FC Address>:<port>/v1/clusters/1/nodes/leafs?notification_address=<Notification Address>&notification_port=<port>" \
+     -d '{
+          "node_id" : "1",
+          "equipment_type_id" : "2",
+          "leaf_type" : "EL",
+          "host_name" : "Leaf01", 
+          "mac_address" : "a8:2b:b5:0d:c0:e0", 
+          "username" : "admin", "password" : "admin", 
+          "provisioning" : false, 
+          "vpn_type" : "l2", "plane" : 1, 
+          "snmp_community" : "ntt-msf", 
+          "ntp_server_address" : <NTP Server Address>, 
+          "breakout" : null, 
+          "internal_links" : { 
+              "lag_links" :[{ 
+                  "opposite_node_id" : "1", "local_traffic_threshold" : null, "opposite_traffic_threshold" : null, "member_ifs" :[{ 
+                      "local" :{ "physical_if" :{ "physical_if_id" : "65", "physical_if_speed" : "40g" }, "breakout_if" :null }, 
+                      "opposite" :{ "physical_if" :{ "physical_if_id" : "50", "physical_if_speed" : "40g" }, "breakout_if" :null } }] }]  }, 
+          "management_if_address" : <Management IF Address>, 
+          "management_if_prefix" : 24
+         }' 

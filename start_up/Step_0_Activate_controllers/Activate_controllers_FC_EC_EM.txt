@@ -1,0 +1,9 @@
+<FC>
+msf-controller/bin/fc_ctl.sh start
+
+<EC>
+ec_main/bin/ec_ctl.sh start
+
+<EM>
+em/bin/em_ctl.sh start
+

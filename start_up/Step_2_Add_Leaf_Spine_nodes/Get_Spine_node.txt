@@ -1,0 +1,8 @@
+<list>
+curl http://172.29.32.100:18080/v1/clusters/1/nodes/spines?user-type=operator
+
+<Detail>
+curl http://172.29.32.100:18080/v1/clusters/1/nodes/spines/1?user-type=operator
+
+
+

@@ -1,0 +1,7 @@
+<list>
+curl http://<FC Address>:<port>/v1/clusters/1/nodes/leafs
+
+<detail>
+curl http://<FC Address>:<port>/v1/clusters/1/nodes/leafs/1
+curl http://<FC Address>:<port>/v1/clusters/1/nodes/leafs/2
+

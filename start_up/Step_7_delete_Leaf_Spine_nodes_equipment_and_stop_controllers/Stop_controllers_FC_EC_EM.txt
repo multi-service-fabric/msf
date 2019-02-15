@@ -1,0 +1,10 @@
+<FC>
+msf-controller/bin/fc_ctl.sh stop
+
+<EC>
+ec_main/bin/ec_ctl.sh stop
+
+<EM>
+em/bin/em_ctl.sh stop
+
+

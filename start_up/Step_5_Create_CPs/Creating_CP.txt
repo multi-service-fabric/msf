@@ -1,0 +1,11 @@
+curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST \
+    -d '{
+        "cluster_id" : "1",
+        "edge_point_id" : "1",
+        "vlan_id" : 4001,"cp_id" : "TESTCP1",
+        "pair_cp_id" : null,
+        "qos" :{"ingress_shaping_rate" : null,"egress_shaping_rate" : null,"egress_queue_menu" : null},
+        "port_mode" : "access"
+        }'  http://<FC Address>:<port>/v1/slices/l2vpn/TEST/cps?notification_address=<Notification Address>\&notification_port=<port>
+
+

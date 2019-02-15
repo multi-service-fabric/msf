@@ -1,0 +1,1 @@
+curl -X DELETE "http://<FC Address>:<port>/v1/slices/l2vpn/TEST/cps/TESTCP1?notification_address=<Notification Address>&notification_port=<port>"

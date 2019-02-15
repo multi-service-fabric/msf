@@ -1,0 +1,1 @@
+curl http://<FC Address>:<port>/v1/slices/l2vpn

@@ -1,0 +1,7 @@
+curl -H 'Content-type: application/json' \
+     -X POST \
+     http://<FC Address>:<port>/v1/slices/l2vpn \
+      -d '{
+          "slice_id":"TEST",
+          "remark_menu":null
+      }' 

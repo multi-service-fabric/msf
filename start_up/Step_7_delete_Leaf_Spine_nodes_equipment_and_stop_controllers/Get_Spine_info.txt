@@ -1,0 +1,6 @@
+<list>
+curl http://<FC Address>:<port>/v1/clusters/1/nodes/spines?user-type=operator
+
+<detail>
+curl http://<FC Address>:<port>/v1/clusters/1/nodes/spines/1?user-type=operator
+

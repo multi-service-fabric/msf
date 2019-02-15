@@ -1,0 +1,3 @@
+curl -v -X DELETE http://<FC Address>:<port>/v1/equipment-types/1
+curl -v -X DELETE http://<FC Address>:<port>/v1/equipment-types/2
+

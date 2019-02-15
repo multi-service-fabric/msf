@@ -48,12 +48,14 @@ Furthermore, in order to connect between multiple data centers, **Multi-Fabric C
 [Repository](https://github.com/multi-service-fabric/element-manager)
 
 ## Document
-[Concept_Functionality_and_NetworkScale](/doc/Concept_Functionality_and_NetworkScale.pdf) (PDF) describes concept and overview, for your understanding of our project.
+[Concept_Overview_and_Usecase_of_Multi_Service_Fabric](/doc/Concept_Overview_and_Usecase_of_Multi_Service_Fabric.pdf) (PDF) describes concept, overview and usecase for your understanding of our project.
 
-[Technical_Details](/doc/Technical_Details_r02.pdf) (PDF) describes more technical information about typical functions and basic operations for using controllers.
+[Technical_Details](/doc/Technical_Details_r02.pdf) (PDF) describes more technical information about typical functions.
+
+[Start_up_MSF](/doc/Start_up_MSF.pdf) (PDF) describes basic operations for using controllers.
 
 ## Support
-If you have any questions, enhancement requests,  let us know with issue, or please contact `msf-contact [at] lab.ntt.co.jp`.
+If you have any questions, enhancement requests,  let us know with issue, or please contact `msf-contact [at] hco.ntt.co.jp`.
 
 ## Project
 This project is a part of [Multi-Service Fabric](https://github.com/multi-service-fabric/).
