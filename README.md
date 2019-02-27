@@ -50,7 +50,7 @@ Furthermore, in order to connect between multiple data centers, **Multi-Fabric C
 ## Document
 [Concept_Overview_and_Usecase_of_Multi_Service_Fabric](/doc/Concept_Overview_and_Usecase_of_Multi_Service_Fabric.pdf) (PDF) describes concept, overview and usecase for your understanding of our project.
 
-[Technical_Details](/doc/Technical_Details_r02.pdf) (PDF) describes more technical information about typical functions.
+[Technical_Details](/doc/Technical_Details.pdf) (PDF) describes more technical information about typical functions.
 
 [Start_up_MSF](/doc/Start_up_MSF.pdf) (PDF) describes basic operations for using controllers.
 
